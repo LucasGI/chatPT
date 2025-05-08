@@ -23,16 +23,27 @@ versos = [
     "Programé mi destino y me olvidé de cerrar el paréntesis."
 ]
 
+
+"""
+esta funcion guarda en el archivo txt toda la conversaqcion que vas teniendo con el bot
+"""
 def guardar_lamento(texto):
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         f.write(f"[{timestamp}] {texto}\n")
 
+"""
+esta funcion genera el poema poniendo las frases guardadas en versos de manera aleatoria, asi cada poema es distinto
+"""
 def generar_poema():
     poema = "\n".join(random.sample(versos, 3))
     guardar_lamento(poema)
     return poema
 
+"""
+esta es la funcion como mas importante, es la que levanta la pregunta del usuario y la compara con las listas de preguntas predefinidas
+si no encuentra nada que matchee devuelve una frase de error aleatoria de las que dejamos definidas
+"""
 def responder(pregunta):
     pregunta = pregunta.lower().strip()
     for claves, respuesta in respuestas_clave.items():
