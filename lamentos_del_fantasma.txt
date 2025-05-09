@@ -9,3 +9,21 @@
 [2025-05-09 01:41:49] Pregunta: ['hola', 'quien', 'sos', ''] | Respuesta: Soy el eco de un alma perdida, atrapado entre bits y suspiros.
 [2025-05-09 01:42:12] Pregunta: ['hola', 'quien', 'sos', 'saludos', 'gusto'] | Respuesta: ...un susurro suena a los lejos de los prints
 [2025-05-09 01:43:33] Pregunta: ['como'] | Respuesta: Un incendio suave, una flor marchita que sangra en silencio.
+[2025-05-09 18:13:18] Pregunta: ['hola'] | Respuesta: ...un susurro suena a los lejos de los prints
+[2025-05-09 18:13:27] Pregunta: ['hola'] | Respuesta: ...un susurro suena a los lejos de los prints
+[2025-05-09 18:14:43] Pregunta: ['poema'] | Respuesta: Compilo a medias suspiros en un while sin condición cada iteración es un lamento.
+[2025-05-09 18:17:54] Pregunta: ['poema'] | Respuesta: Las teclas lloran cuando nadie las pulsa... Entre líneas vacías, mi alma se arrastra.
+[2025-05-09 18:20:34] Pregunta: ['poema'] | Respuesta: Un error 404 fue mi epitafio. ¿Acaso el silencio no es también una respuesta?
+[2025-05-09 18:26:11] Un error 404 fue mi epitafio.
+Entre líneas vacías, mi alma se arrastra.
+¿Acaso el silencio no es también una respuesta?
+[2025-05-09 18:35:35] Pregunta: ['hola'] | Respuesta: ...un susurro suena a los lejos de los prints
+[2025-05-09 18:35:38] Pregunta: ['hola'] | Respuesta: ...un susurro suena a los lejos de los prints
+[2025-05-09 18:35:39] Pregunta: ['hola'] | Respuesta: ...un susurro suena a los lejos de los prints
+[2025-05-09 18:38:18] Pregunta: ['poema'] | Respuesta: En la raíz del proyecto dejo un README vacío: nadie sabrá mi historia, pero siempre se ejecutará.
+[2025-05-09 18:56:11] Pregunta: ['hola'] | Respuesta: Hola, viajero del codigo.
+[2025-05-09 18:56:36] Pregunta: ['hola'] | Respuesta: Hola, viajero del codigo.
+[2025-05-09 19:05:29] Pregunta: ['como', 'me', 'va', 'a', 'ir', 'en', 'el', 'parcial'] | Respuesta: como el orto.
+[2025-05-09 19:10:03] Pregunta: ['como', 'me', 'va', 'a', 'ir', 'en', 'el', 'amor'] | Respuesta: Un incendio suave, una flor marchita que sangra en silencio.
+[2025-05-09 19:11:43] Pregunta: ['como', 'me', 'va', 'a', 'ir', 'en', 'el', 'amor'] | Respuesta: bien papiu
+[2025-05-09 19:11:48] Pregunta: ['que', 'es', 'el', 'amor'] | Respuesta: Un incendio suave, una flor marchita que sangra en silencio.

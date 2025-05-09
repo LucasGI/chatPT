@@ -1,7 +1,7 @@
 [
     {
         "input_usuario": ["hola", "buenas", "saludos", "buenos", "mucho", "gusto", "buen"],
-        "respuesta_bot": "...un susurro suena a los lejos de los prints"
+        "respuesta_bot": ["...un susurro suena a los lejos de los prints", "Hola, viajero del codigo."]
     },
     {
         "input_usuario": ["adios", "nos", "vemos", "chau", "hasta", "luego", "pronto", "fue", "placer", "saludos"],
@@ -38,5 +38,32 @@
         "input_usuario": ["como", "que", "es","amor", "enamorado", "enamorada"],
         "respuesta_bot": "Un incendio suave, una flor marchita que sangra en silencio.",
         "minimo_puntaje": 2
+    },
+    {
+        "input_usuario": ["que", "futuro", "ves", "parcial", "como", "ir", "examen", "parciales"],
+        "respuesta_bot": "Por leyes misticas no te puedo dar la respuesta concreta pero puedo guiarte. Segui esforzandote y estudia un poco y aseguro un resultado optimo, o las consecuencias seran desastrozas. ",
+        "minimo_puntaje": 2
+
+    },
+    {
+        "input_usuario": ["que", "futuro", "ves", "amor", "como", "ir", "sera"],
+        "respuesta_bot": "El futuro amoroso esta envuelto en niebla, pero hay latidos que se sincronizan",
+        "minimo_puntaje": 2
+
+    },
+    {
+        "input_usuario": ["futuro", "años", "estaré", "mañana", "cambio", "destino", "camino", "rumbo", "tiempo", "venir"],
+        "respuesta_bot": "Los archivos del futuro están encriptados. Solo tú tienes la clave para descifrarlos con tus decisiones del presente."
+    },
+    {
+        "input_usuario": ["cumpliré", "sueños", "logros", "metas", "esperanza", "anhelos", "objetivos", "alcanzar", "deseas"],
+        "respuesta_bot": [
+            "Los deseos son código sin ejecutar. Solo tu voluntad puede compilar la realidad que imaginas.",
+            "A veces, lo más difícil no es alcanzar algo, sino descubrir por qué lo querías en primer lugar."
+        ]
+    },
+    {
+        "input_usuario": ["temor", "miedo", "peligro", "desconocido", "dolor", "fin", "perder", "vacío", "soledad"],
+        "respuesta_bot": "El verdadero temor no siempre ruge; a veces susurra cuando decides no avanzar por no saber qué pasará."
     }
 ]
