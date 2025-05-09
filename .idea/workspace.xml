@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0338d8b5-bebd-4d72-8067-6c81feea5c23" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crear_respuesta.py" beforeDir="false" afterPath="$PROJECT_DIR$/crear_respuesta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lamentos_del_fantasma.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lamentos_del_fantasma.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/respuestas.json" beforeDir="false" afterPath="$PROJECT_DIR$/respuestas.json" afterDir="false" />
-    </list>
+    <list default="true" id="0338d8b5-bebd-4d72-8067-6c81feea5c23" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +67,7 @@
       <updated>1746721654559</updated>
       <workItem from="1746721655753" duration="2193000" />
       <workItem from="1746790015379" duration="4494000" />
-      <workItem from="1746824471526" duration="6051000" />
+      <workItem from="1746824471526" duration="6724000" />
     </task>
     <servers />
   </component>
