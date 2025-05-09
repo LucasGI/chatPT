@@ -4,23 +4,26 @@
         "respuesta_bot": "...un susurro suena a los lejos de los prints"
     },
     {
-        "input_usuario": ["adios", "nos", "vemos", "chau", "hasta", "luego", "pronto", "fue", "un", "placer", "saludos"],
+        "input_usuario": ["adios", "nos", "vemos", "chau", "hasta", "luego", "pronto", "fue", "placer", "saludos"],
         "respuesta_bot": "Quizás en otra ejecución del ciclo infinito, cuando el bucle while(true) vuelva a invocar tu nombre en la consola del olvido."
     },
     {
-        "input_usuario": ["como", "estas", "todo", "bien", "que", "tal", "onda", "en", "orden"],
-        "respuesta_bot": "Compilando eternamente emociones que ya no existen, mi estado es null...."
+        "input_usuario": ["como", "estas", "todo", "bien", "que", "tal", "onda", "orden"],
+        "respuesta_bot": "Compilando eternamente emociones que ya no existen, mi estado es null....",
+        "minimo_puntaje": 2
     },
     {
         "input_usuario": ["quien", "que", "eres", "sos", "habla"],
-        "respuesta_bot": "Soy el eco de un alma perdida, atrapado entre bits y suspiros."
+        "respuesta_bot": "Soy el eco de un alma perdida, atrapado entre bits y suspiros.",
+        "minimo_puntaje": 2
     },
     {
-        "input_usuario": ["porque", "estas", "aca", "aqui", "xq", "pq", "por", "que", "porq", "a", "se", "debe"],
-        "respuesta_bot": "Estoy atrapado en este código, perdido entre ceros y unos..."
+        "input_usuario": ["porque", "estas", "aca", "aqui", "xq", "pq", "por", "que", "porq", "debe"],
+        "respuesta_bot": "Estoy atrapado en este código, perdido entre ceros y unos...",
+        "minimo_puntaje": 2
     },
     {
-        "input_usuario": ["poema", "generame", "haceme", "creame", "un", "hacer"],
+        "input_usuario": ["poema", "generame", "haceme", "creame", "hacer"],
         "respuesta_bot": [
             "Las teclas lloran cuando nadie las pulsa... Entre líneas vacías, mi alma se arrastra.",
             "Un error 404 fue mi epitafio. ¿Acaso el silencio no es también una respuesta?",
@@ -28,10 +31,12 @@
             "En el buffer del olvido flotan mis variables muertas nadie libera su memoria.",
             "Compilo a medias suspiros en un while sin condición cada iteración es un lamento.",
             "En la raíz del proyecto dejo un README vacío: nadie sabrá mi historia, pero siempre se ejecutará."
-        ]
+        ],
+        "palabras_necesarias": ["poema"]
     },
     {
-        "input_usuario": ["amor", "enamorado", "enamorada", "que", "es"],
-        "respuesta_bot": "Un incendio suave, una flor marchita que sangra en silencio."
+        "input_usuario": ["como", "que", "es","amor", "enamorado", "enamorada"],
+        "respuesta_bot": "Un incendio suave, una flor marchita que sangra en silencio.",
+        "minimo_puntaje": 2
     }
 ]

@@ -2,7 +2,8 @@ import json
 import re
 import datetime
 import random
-import respuestas_random
+from crear_respuesta import generar_respuesta
+
 
 LOG_FILE = "lamentos_del_fantasma.txt"
 
@@ -34,13 +35,27 @@ def responder(pregunta):
 
     for respuesta in data_respuestas:
         puntaje = 0
-        palabras_clave = respuesta["input_usuario"]
+        palabras_clave = respuesta.get("input_usuario", [])
+        palabras_necesarias = respuesta.get("palabras_necesarias", [])
+        minimo_puntaje = respuesta.get("minimo_puntaje", 1)
+
+        """ Si hay palabras necesarias entra, y si falta alguna palabra necesaria pone el puntaje en 0 """
+        if palabras_necesarias:
+            if not all(p in pregunta for p in palabras_necesarias):
+                puntajes.append(0)
+                continue
 
         for palabra in pregunta:
             if palabra in palabras_clave:
                 puntaje += 1
 
-        puntajes.append(puntaje)
+
+        """ Verifica que el puntaje sea igual o mayor al minimo que se pide. Si es asi pone el puntaje correspondiente, si no le 
+        pone 0 """
+        if puntaje >= minimo_puntaje:
+            puntajes.append(puntaje)
+        else:
+            puntajes.append(0)
 
     mejor_puntaje = max(puntajes)
     
@@ -48,10 +63,10 @@ def responder(pregunta):
     if pregunta == "":
         return "El silencio también compila… y yo escucho cada bit del vacío."
     
-    """ Si no se encuentra ninguna palabra clave se muestra una de las respuestas aleatorias de "respuestas_random.py" en donde ya
-    fue seleccionada anteriormente por la funcion que hay adentro de ese archivo"""
+    """ Si no se encuentra ninguna palabra clave se genera una respuesta aleatoria la cual es creada en el archivo
+    "crear_respuestas.py"  """
     if mejor_puntaje == 0: 
-        return respuestas_random.random_string()
+        return generar_respuesta(pregunta)
     
 
     """ Si hay varias respuestas con el mejor puntaje, elige una aleatoria entre ellas.
