@@ -127,7 +127,7 @@ print("Contestare tus preguntas sobre el futuro, el amor y otros temas, pensa en
 print("\nHablame... o abandona este lugar (escribe 'salir')")
 
 
-""" Dentro de este while se llama a las funciones que hacen posible la charla con el bot """
+""" Dentro de este while se llama a las funciones que hacen posible la charla con el bot. solamente input para levantar la pregunta y print para mostrar la respuesta generada """
 while True:
     entrada = input("Tú: ")
     if entrada.lower() == "salir":

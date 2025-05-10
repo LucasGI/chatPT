@@ -6,8 +6,8 @@ def generar_respuesta(pregunta):
     if pregunta:
         tema = pregunta[-1]  # Agarra la ultima palabra del input
         frases_generadas = [
-            f"No sé mucho sobre {tema}, pero suena como algo digno de un conjuro...",
-            f"{tema.capitalize()}... una palabra que retumba en los pasillos de la memoria perdida.",
+            f"No sé mucho sobre {tema}, pero te prometo investigarlo para la proxima...",
+            f"{tema.capitalize()}... una palabra que no conozco, debo seguir aprendiendo.",
             f"A veces el eco menciona {tema}, pero nunca logré entender su significado.",
             f"¿{tema}? Quizás en otra línea de código descubra su verdadero propósito...",
             f"Mi gran creador no me permite mencionar ciertos temas... lo siento",

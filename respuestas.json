@@ -177,18 +177,5 @@
             "soledad"
         ],
         "respuesta_bot": "El verdadero temor no siempre ruge; a veces susurra cuando decides no avanzar por no saber qué pasará."
-    },
-    {
-        "input_usuario": [
-            "de",
-            "que",
-            "tamaño",
-            "es",
-            "tu",
-            "casa",
-            ""
-        ],
-        "respuesta_bot": "No sé mucho sobre casa, pero suena como algo digno de un conjuro...",
-        "_comentario": "Pregunta desconocida agregada automáticamente"
     }
 ]
