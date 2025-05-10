@@ -21,16 +21,37 @@ def guardar_lamento(texto):
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         f.write(f"[{timestamp}] {texto}\n")
+#------------------------------------
+
+""" 
+funcion "agregar_pregunta_desconocida" : esta funcion guarda la pregunta del usuario en el archivo "respuestas.json".  
+"""
+def agregar_pregunta_desconocida(pregunta, respuesta_generada, ruta_archivo="respuestas.json"):
+    f = open(ruta_archivo, "r", encoding="utf-8")
+    datos = json.load(f)
+    f.close()
+
+    nueva_entrada = {
+        "input_usuario": pregunta,
+        "respuesta_bot": respuesta_generada,
+        "_comentario": "Pregunta desconocida agregada automáticamente"
+    }
+
+    datos.append(nueva_entrada)
+
+    f = open(ruta_archivo, "w", encoding="utf-8")
+    json.dump(datos, f, indent=4, ensure_ascii=False)
+    f.close()
+
+    print("👻 Nueva pregunta desconocida registrada.")
 
 
-
-
-
-def responder(pregunta):
+#-----------------------------------
+def responder(pregunta_original):
     """ Estas funcion  es la encargada de leer el input que esta poniendo el usuario, separar las palabras agregadaa y las toma 
     como palabras clave. Si una de esas palabras clave coincide con las del JSON cargado anteriormente, suma un "punto" en esa
     respuesta. La respuesta que tenga mas puntos es la que se va a mostrar. """
-    pregunta = re.split(r'\s+|[,;?!.-]\s*', pregunta.lower().strip())
+    pregunta = re.split(r'\s+|[,;?!.-]\s*', pregunta_original.lower().strip())
     puntajes = []
 
     for respuesta in data_respuestas:
@@ -66,9 +87,13 @@ def responder(pregunta):
         return "El silencio también compila… y yo escucho cada bit del vacío."
     
     """ Si no se encuentra ninguna palabra clave se genera una respuesta aleatoria la cual es creada en el archivo
-    "crear_respuestas.py"  """
-    if mejor_puntaje == 0: 
-        return generar_respuesta(pregunta)
+    "crear_respuestas.py" y se invoca a la funcion "agregar_pregunta_desconocida" para que la registre en el archivo "respuestas.json  """
+    if mejor_puntaje == 0:
+        pregunta_limpia = [p for p in pregunta if p.strip() != ""]
+        respuesta_generada = generar_respuesta(pregunta_limpia)
+        agregar_pregunta_desconocida(pregunta, respuesta_generada)
+        guardar_lamento(f"Pregunta: {pregunta} | Respuesta: {respuesta_generada}")
+        return respuesta_generada
     
 
     """ Si hay varias respuestas con el mejor puntaje, elige una aleatoria entre ellas.
@@ -109,4 +134,4 @@ while True:
         print("El fantasma se desvanece entre sombras y líneas de código...")
         break
     respuesta = responder(entrada)
-    print("Fantasma:", respuesta)
+    print("PyGhost:", respuesta)

@@ -27,3 +27,10 @@ Entre líneas vacías, mi alma se arrastra.
 [2025-05-09 19:10:03] Pregunta: ['como', 'me', 'va', 'a', 'ir', 'en', 'el', 'amor'] | Respuesta: Un incendio suave, una flor marchita que sangra en silencio.
 [2025-05-09 19:11:43] Pregunta: ['como', 'me', 'va', 'a', 'ir', 'en', 'el', 'amor'] | Respuesta: bien papiu
 [2025-05-09 19:11:48] Pregunta: ['que', 'es', 'el', 'amor'] | Respuesta: Un incendio suave, una flor marchita que sangra en silencio.
+[2025-05-10 17:45:24] Pregunta: ['de', 'que', 'tamaño', 'es', 'tu', 'casa', ''] | Respuesta: Un incendio suave, una flor marchita que sangra en silencio.
+[2025-05-10 17:46:45] Pregunta: ['de', 'que', 'tamaño', 'es', 'tu', 'casa'] | Respuesta: Casa... una palabra que retumba en los pasillos de la memoria perdida.
+[2025-05-10 18:02:23] Pregunta: ['de', 'que', 'tamaño', 'es', 'tu', 'casa', ''] | Respuesta: No sé mucho sobre , pero suena como algo digno de un conjuro...
+[2025-05-10 18:10:12] Pregunta: ['de', 'que', 'tamaño', 'es', 'tu', 'casa', ''] | Respuesta: Mis respuestas son limitadas, debes hacer las preguntas correctas
+[2025-05-10 18:10:41] Pregunta: ['de', 'que', 'tamaño', 'es', 'tu', 'casa', ''] | Respuesta: No sé mucho sobre , pero suena como algo digno de un conjuro...
+[2025-05-10 18:12:27] Pregunta: ['de', 'que', 'tamaño', 'es', 'tu', 'casa', ''] | Respuesta: Mi gran creador no me permite mencionar ciertos temas... lo siento
+[2025-05-10 18:12:52] Pregunta: ['de', 'que', 'tamaño', 'es', 'tu', 'casa', ''] | Respuesta: No sé mucho sobre casa, pero suena como algo digno de un conjuro...

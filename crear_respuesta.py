@@ -3,7 +3,7 @@ import random
 
 # Esta funcion agarra la ultima palabra del input que puso el usuario e importa una de las respuestas que hay en ella
 def generar_respuesta(pregunta):
-    if pregunta:  
+    if pregunta:
         tema = pregunta[-1]  # Agarra la ultima palabra del input
         frases_generadas = [
             f"No sé mucho sobre {tema}, pero suena como algo digno de un conjuro...",
