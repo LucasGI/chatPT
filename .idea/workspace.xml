@@ -7,9 +7,8 @@
     <list default="true" id="0338d8b5-bebd-4d72-8067-6c81feea5c23" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crear_respuesta.py" beforeDir="false" afterPath="$PROJECT_DIR$/crear_respuesta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crear_respuesta.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lamentos_del_fantasma.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lamentos_del_fantasma.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/respuestas.json" beforeDir="false" afterPath="$PROJECT_DIR$/respuestas.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +107,8 @@
       <workItem from="1746913536931" duration="227000" />
       <workItem from="1746913814962" duration="649000" />
       <workItem from="1746914475010" duration="39000" />
+      <workItem from="1746951494476" duration="387000" />
+      <workItem from="1746979311220" duration="3339000" />
     </task>
     <servers />
   </component>
@@ -115,7 +116,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Chatbot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1746914445010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Chatbot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1746988938255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Chatbot$crear_respuesta.coverage" NAME="crear_respuesta Coverage Results" MODIFIED="1746825186249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Chatbot$cxhatgpifrwejoifjhoi.coverage" NAME="cxhatgpifrwejoifjhoi Coverage Results" MODIFIED="1746666025872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Chatbot$Chatbot.coverage" NAME="Chatbot Coverage Results" MODIFIED="1746721700511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

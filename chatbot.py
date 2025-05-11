@@ -2,10 +2,27 @@ import json
 import re
 import datetime
 import random
-from crear_respuesta import generar_respuesta
+
 
 
 LOG_FILE = "lamentos_del_fantasma.txt"
+
+# Esta funcion agarra la ultima palabra del input que puso el usuario e importa una de las respuestas que hay en ella
+def generar_respuesta(pregunta):
+    if pregunta:
+        tema = pregunta[-1]  # Agarra la ultima palabra del input
+        frases_generadas = [
+            f"No sé mucho sobre {tema}, pero te prometo investigarlo para la proxima...",
+            f"{tema.capitalize()}... una palabra que no conozco, debo seguir aprendiendo.",
+            f"A veces el eco menciona {tema}, pero nunca logré entender su significado.",
+            f"¿{tema}? Quizás en otra línea de código descubra su verdadero propósito...",
+            f"Mi gran creador no me permite mencionar ciertos temas... lo siento",
+            f"Mis respuestas son limitadas, debes hacer las preguntas correctas"
+        ]
+        respuesta_generada = random.choice(frases_generadas)
+        return respuesta_generada
+    else:
+        return "La respuesta se esconde en las sombras del código... ¿Me podrías preguntar algo más?"
 
 def cargar_json(archivo):
     # En esta funcion se carga el JSON con las palabras clave que pone el usuario en su input y las respuestas a estas.
@@ -23,10 +40,11 @@ def guardar_lamento(texto):
         f.write(f"[{timestamp}] {texto}\n")
 #------------------------------------
 
-""" 
-funcion "agregar_pregunta_desconocida" : esta funcion guarda la pregunta del usuario en el archivo "respuestas.json".  
-"""
+
 def agregar_pregunta_desconocida(pregunta, respuesta_generada, ruta_archivo="respuestas.json"):
+
+   # funcion "agregar_pregunta_desconocida" : esta funcion guarda la pregunta del usuario en el archivo "respuestas.json".
+
     f = open(ruta_archivo, "r", encoding="utf-8")
     datos = json.load(f)
     f.close()

@@ -35,3 +35,18 @@ Entre líneas vacías, mi alma se arrastra.
 [2025-05-10 18:12:27] Pregunta: ['de', 'que', 'tamaño', 'es', 'tu', 'casa', ''] | Respuesta: Mi gran creador no me permite mencionar ciertos temas... lo siento
 [2025-05-10 18:12:52] Pregunta: ['de', 'que', 'tamaño', 'es', 'tu', 'casa', ''] | Respuesta: No sé mucho sobre casa, pero suena como algo digno de un conjuro...
 [2025-05-10 19:00:53] Pregunta: ['de', 'que', 'tamaño', 'es', 'tu', 'casa', ''] | Respuesta: Mi gran creador no me permite mencionar ciertos temas... lo siento
+[2025-05-11 05:20:03] Pregunta: ['que', 'ves', 'en', 'mi', 'futuro', 'en', 'el', 'amor', ''] | Respuesta: El futuro amoroso esta envuelto en niebla, pero hay latidos que se sincronizan
+[2025-05-11 05:20:17] Pregunta: ['no', 'entiendo'] | Respuesta: Mi gran creador no me permite mencionar ciertos temas... lo siento
+[2025-05-11 05:20:43] Pregunta: ['me', 'voy', 'a', 'enamorar', 'de', 'nuevo', ''] | Respuesta: Mis respuestas son limitadas, debes hacer las preguntas correctas
+[2025-05-11 05:21:57] Pregunta: ['que', 'es', 'estar', 'enamorado', ''] | Respuesta: A veces el eco menciona enamorado, pero nunca logré entender su significado.
+[2025-05-11 05:22:28] Pregunta: ['quien', 'sos', ''] | Respuesta: Soy el eco de un alma perdida, atrapado entre bits y suspiros.
+[2025-05-11 05:22:48] Pregunta: ['como', 'estas', ''] | Respuesta: Compilando eternamente emociones que ya no existen, mi estado es null....
+[2025-05-11 15:32:22] Pregunta: ['hola'] | Respuesta: Hola, viajero del codigo.
+[2025-05-11 15:32:26] Pregunta: ['como', 'estas'] | Respuesta: Compilando eternamente emociones que ya no existen, mi estado es null....
+[2025-05-11 15:32:30] Pregunta: ['que', 'es', 'el', 'amor'] | Respuesta: Un incendio suave, una flor marchita que sangra en silencio.
+[2025-05-11 15:32:34] Pregunta: ['donde', 'vivis'] | Respuesta: A veces el eco menciona vivis, pero nunca logré entender su significado.
+[2025-05-11 15:42:21] Pregunta: ['hola'] | Respuesta: ...un susurro suena a los lejos de los prints
+[2025-05-11 15:42:26] Pregunta: ['hola'] | Respuesta: Hola, viajero del codigo.
+[2025-05-11 15:42:28] Pregunta: ['hola'] | Respuesta: ...un susurro suena a los lejos de los prints
+[2025-05-11 15:42:30] Pregunta: ['hola'] | Respuesta: Hola, viajero del codigo.
+[2025-05-11 15:42:36] Pregunta: ['como', 'estas'] | Respuesta: Compilando eternamente emociones que ya no existen, mi estado es null....
