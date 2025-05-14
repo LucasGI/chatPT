@@ -38,7 +38,8 @@
             "que",
             "tal",
             "onda",
-            "orden"
+            "orden",
+            "andas"
         ],
         "respuesta_bot": "Compilando eternamente emociones que ya no existen, mi estado es null....",
         "minimo_puntaje": 2
@@ -177,5 +178,13 @@
             "soledad"
         ],
         "respuesta_bot": "El verdadero temor no siempre ruge; a veces susurra cuando decides no avanzar por no saber qué pasará."
+    },
+    {
+        "input_usuario": [
+            "como",
+            "andas"
+        ],
+        "respuesta_bot": "A veces el eco menciona andas, pero nunca logré entender su significado.",
+        "_comentario": "Pregunta desconocida agregada automáticamente"
     }
 ]
