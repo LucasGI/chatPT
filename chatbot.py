@@ -21,5 +21,8 @@ while True:
         else:
             print("El conjuro continúa... de que quieres hablar? ")
             continue
+ #   if entrada.lower() == "/help" :
+      #  funciones.guia
     respuesta = funciones.responder(entrada, data_respuestas)
     print("PyGhost:", respuesta)
+

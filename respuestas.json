@@ -178,5 +178,12 @@
             "soledad"
         ],
         "respuesta_bot": "El verdadero temor no siempre ruge; a veces susurra cuando decides no avanzar por no saber qué pasará."
+    },
+    {
+        "input_usuario": [
+            "/help"
+        ],
+        "respuesta_bot": "/help... una palabra que no conozco, debo seguir aprendiendo.",
+        "_comentario": "Pregunta desconocida agregada automáticamente"
     }
 ]
