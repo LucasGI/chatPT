@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0338d8b5-bebd-4d72-8067-6c81feea5c23" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Documentacion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/funciones.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lamentos_del_fantasma.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lamentos_del_fantasma.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/respuestas.json" beforeDir="false" afterPath="$PROJECT_DIR$/respuestas.json" afterDir="false" />
     </list>
@@ -97,8 +99,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.122" />
-        <option value="bundled-python-sdk-880ecab49056-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.122" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
@@ -124,7 +126,13 @@
       <workItem from="1747259820432" duration="166000" />
       <workItem from="1747260271482" duration="730000" />
       <workItem from="1747261018769" duration="6632000" />
-      <workItem from="1747271359361" duration="2327000" />
+      <workItem from="1747271359361" duration="2394000" />
+      <workItem from="1747303575175" duration="123000" />
+      <workItem from="1747411698936" duration="12000" />
+      <workItem from="1747420078790" duration="43000" />
+      <workItem from="1747420139272" duration="29000" />
+      <workItem from="1747428363668" duration="209000" />
+      <workItem from="1747583694093" duration="3584000" />
     </task>
     <servers />
   </component>
@@ -132,7 +140,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Chatbot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1747273141617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Chatbot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1747587280914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Chatbot$crear_respuesta.coverage" NAME="crear_respuesta Coverage Results" MODIFIED="1746825186249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Chatbot$cxhatgpifrwejoifjhoi.coverage" NAME="cxhatgpifrwejoifjhoi Coverage Results" MODIFIED="1746666025872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Chatbot$Chatbot.coverage" NAME="Chatbot Coverage Results" MODIFIED="1746721700511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -2,8 +2,10 @@ import json
 import re
 import datetime
 import random
+import time
 
 LOG_FILE = "lamentos_del_fantasma.txt"
+LOG_FILE = "Documentacion.txt"
 
 # Esta funcion agarra la ultima palabra del input que puso el usuario e importa una de las respuestas que hay en ella
 def generar_respuesta(pregunta):
@@ -31,7 +33,7 @@ def cargar_json(archivo):
 
 def guardar_lamento(texto):
     # esta funcion guarda en el archivo txt toda la conversaqcion que vas teniendo con el bot
-    with open(LOG_FILE, "a", encoding="utf-8") as f:
+    with open('lamentos_del_fantasma.txt', "a", encoding="utf-8") as f:
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         f.write(f"[{timestamp}] {texto}\n")
 
@@ -124,3 +126,13 @@ def responder(pregunta_original, data_respuestas):
     else:
         guardar_lamento(f"Pregunta: {pregunta} | Respuesta: {posibles_respuestas}")
         return posibles_respuestas
+
+
+def guia():
+    # Esta funcion printea el archivo "Documentacion.txt" con un delay, para dar la sensacion de que se va escribiendo de a poco
+
+    with open('Documentacion.txt', 'r') as archivo:
+        for linea in archivo:
+            for caracter in linea:
+                print(caracter, end='', flush=True)
+                time.sleep(0.0010)

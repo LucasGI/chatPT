@@ -2,6 +2,8 @@
     {
         "input_usuario": [
             "hola",
+            "hoola",
+            "holaa",
             "buenas",
             "saludos",
             "buenos",
@@ -115,7 +117,8 @@
             "como",
             "ir",
             "examen",
-            "parciales"
+            "parciales",
+            "academico"
         ],
         "respuesta_bot": "Por leyes misticas no te puedo dar la respuesta concreta pero puedo guiarte. Segui esforzandote y estudia un poco y aseguro un resultado optimo, o las consecuencias seran desastrozas. ",
         "minimo_puntaje": 2
@@ -183,7 +186,7 @@
         "input_usuario": [
             "/help"
         ],
-        "respuesta_bot": "/help... una palabra que no conozco, debo seguir aprendiendo.",
-        "_comentario": "Pregunta desconocida agregada automáticamente"
+        "respuesta_bot": "Dime, en que mas puedo guiarte?"
+
     }
 ]

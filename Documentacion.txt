@@ -1,0 +1,64 @@
+
+PyGhost es un chatbot con personalidad. Es un fantasma atrapado en la maquina. El es una suerte de vidente del mas alla,
+algo asi como un tarotista un poco poeta si se quiere. La idea es que se le puedan preguntar cosas sobre el futuro y el responde
+de manera mistica y en verso. Tambien si le pedis un poema te va a devolver un verso aleatorio de los que tiene guardados
+
+"""Cosas basicas que se puede conversar"
+ACLARACION: LAS PALABRAS CLAVES MENCIONADAS ABAJO NO SON NECESARIAMENTE LAS UNICAS QUE EL BOT ENTIENDE. PYGHOST ENTIENDE QUE HAY VARIAS
+FORMAS DE DECIR LO MISMO. POR EJEMPLO, PODRIAS DECIRLE "HOLA", "BUEN DIA", "MUCHO GUSTO", ETC, Y EL ENTENDERA
+
+#Saludo: El fantasma es capaz de responder a varios tipos de saludo. hola, mucho gusto, etc.
+
+#Quien sos? / que eres?
+
+#Por que estas aqui
+
+#Poema: podes pedirle al bot que te haga un poema, el te dira un verso aleatorio
+
+#Amor: puedes preguntarle sobre el amor. que es, como se siente, etc.
+
+#Futuro academico: podes preguntarle sobre tu futuro academico, como te fue o te va a it en parciales, examenes, etc.
+
+#Futuro amoroso: podes preguntarle sobre tu futuro en el amor.
+
+#Futuro general: podes preguntarle sobre el futuro en general
+
+#Destino/Sueños: podes preguntar sobre tu destino, si se cumpliran tus sueños, objetivos, deseos, etc.
+
+#Temor / Dolor: podes consultar sobre temores, peligros, sobre la soledad, el dolor, o el vacio.
+
+
+
+
+
+"""Funciones Y su utilidad"""
+
+# -----------------------------------
+def generar_respuesta(pregunta):
+    # Esta funcion agarra la ultima palabra del input que puso el usuario y la incorpora en alguna de las respuestas predefinidas
+    para temas que no conoce para devolverla
+
+# -----------------------------------
+def cargar_json(archivo):
+    # En esta funcion se carga el JSON con las palabras clave que pone el usuario en su input y las respuestas a estas.
+
+# -----------------------------------
+def guardar_lamento(texto):
+    # esta funcion guarda en el archivo txt toda la conversaqcion que vas teniendo con el bot
+
+# -----------------------------------
+def agregar_pregunta_desconocida(pregunta, respuesta_generada, ruta_archivo="respuestas.json"):
+    # funcion "agregar_pregunta_desconocida" : esta funcion guarda la pregunta del usuario en el archivo "respuestas.json".
+
+# -----------------------------------
+def responder(pregunta_original, data_respuestas):
+    #Estas funcion  es la encargada de leer el input que esta poniendo el usuario, separar las palabras agregadaa y las toma
+    como palabras clave. Si una de esas palabras clave coincide con las del JSON cargado anteriormente, suma un "punto" en esa
+    respuesta. La respuesta que tenga mas puntos es la que se va a mostrar.
+
+# -----------------------------------
+def guia():
+    #esta funcion simplemente imprime el contenido del archivo "Documentacion.txt", de esta manera es posible
+    la lectura de la guia abriendo el archivo de manera tradicional o directamente desde la interfaz del bot.
+
+    PUEDES ACCEDER A ESTA GUIA INTRODUCIENCO "/HELP" EN EL CHAT
